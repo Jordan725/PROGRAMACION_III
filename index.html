@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de blog de video juegos">
+    <title>PixelPlay</title>
+    <link rel="icon" type="image/png" href="img/pixel-play 1.png">
+    <!-- PREFETCH -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- PRELOAD -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="img/blog1.jpg" as="image">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Pixel<span class="logo__bold">Play</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">¡Sube de nivel en el mundo de las noticias!</h2>
+            <p class="no-margin">Enterate de las noticias gamer más importantes</p>
+        </div>
+    </header>
+
+    <!-- PANEL1 -->
+    <div class="panel">
+        <div class="plataformas">
+            <section class="plataforma">
+                <div class="icono">
+                    <a href="playstation.html">
+                        <img src="img/logotipo-de-playstation.png" alt="logo ">
+                        <p>PlayStation</p>
+                    </a>
+                </div>
+            </section> <!-- FIN SECCION -->
+
+            <section class="plataforma">
+                <div class="icono">
+                    <a href="xbox.html">
+                        <img src="img/logotipo-de-xbox.png" alt="logo ">
+                        <p>Xbox</p>
+                    </a>
+                </div>
+            </section><!-- FIN SECCION -->
+
+            <section class="plataforma">
+                <div class="icono">
+                    <a href="nintendo.html">
+                        <img src="img/interruptor-de-nintendo.png" alt="logo ">
+                        <p>Nintendo</p>
+                    </a>
+                </div>
+            </section><!-- FIN SECCION -->
+
+            <section class="plataforma">
+                <div class="icono">
+                    <a href="windows.html">
+                        <img src="img/silueta-del-logotipo-de-windows.png" alt="logo ">
+                        <p>Windows</p>
+                    </a>
+                </div>
+            </section><!-- FIN SECCION -->
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Titulares destacados: <span class="titulo-prin">- Las noticias que debes saber</span></h3> <!-- TITULO -->
+
+            <!-- NOTICIAS -->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/FFXVI.jpeg" alt="imagen blog">
+                </div>
+                <div>
+                    <h4 class="no-margin">Todas las habilidades de Fénix en Final Fantasy XVI, cómo desbloquearlas y para qué sirven</h4>
+                    <p>
+                        Te contamos cuáles son todas las habilidades de Fénix en Final Fantasy XVI, lo que cuesta activarlas y su poder.
+                    </p>
+                    <p class="categoria-text">Final Fantasy XVI</p>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 1 día</p>
+                        <p class="noticia-autor">Raquel Servantes</p>
+                    </div>
+                    <a class="boton boton--primario" href="noticia.html">Leer más</a>
+                </div>
+            </article> <!-- FIN ARTICULO -->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/DiabloIV.jpeg" alt="imagen blog">
+                </div>
+                <div>
+                    <h4 class="no-margin">Diablo 4 - Cómo conseguir materiales para mejorar nuestro equipo con piezas que ya no usamos</h4>
+                    <p>
+                        Nunca había estado tan indeciso sobre un juego que quisiera adorar tan desesperadamente. 
+                        He pasado miles de horas jugando a Diablo a lo largo de mi vida, y estaba deseando pasar 
+                        mil más con Diablo IV. 
+                    </p>
+                    <p class="categoria-text">Diablo IV</p>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 1 día</p>
+                        <p class="noticia-autor">Mendoza</p>
+                    </div>
+                    <a class="boton boton--primario" href="noticia.html">Leer más</a>
+                </div>
+            </article> <!-- FIN ARTICULO -->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/Baldur.jpeg" alt="imagen blog">
+                </div>
+                <div>
+                    <h4 class="no-margin">¿Baldur's Gate 3 en Xbox Series X y S? Microsoft está intentando todo lo posible para que así sea</h4>
+                    <p>
+                        El Grupo ATG de ingenieros de Microsoft ha colaborado con Larian Studios, aunque no se comprometen a nada. 
+                    </p>
+                    <p class="categoria-text">Xbox</p>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 1 día</p>
+                        <p class="noticia-autor">Alberto Lloria</p>
+                    </div>
+                    <a class="boton boton--primario" href="noticia.html">Leer más</a>
+                </div>
+            </article> <!-- FIN ARTICULO -->
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" src="img/Logitech.jpeg" alt="imagen blog">
+                </div>
+                <div>
+                    <h4 class="no-margin">He probado Logitech G Cloud. La portátil para el juego en streaming ofrece buenos resultados pero también tiene un gran
+                    pero</h4>
+                    <p>
+                        Si tu idea es aprovechar ya las posibilidades del juego en la nube, esta portátil es lo que buscas, pero no es barata. 
+                    </p>
+                    <p class="categoria-text">Logitech</p>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 21 días</p>
+                        <p class="noticia-autor">Alejandro Pascual</p>
+                    </div>
+                    <a class="boton boton--primario" href="noticia.html">Leer más</a>
+                </div>
+            </article> <!-- FIN ARTICULO -->
+        </main>
+
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>Guías y trucos</h3>
+
+            <ul class="sidebar-noticias no-padding">
+                <li class="widget-sidebar-noticias">
+                    <div class="entrada__imagen">
+                        <img loading="lazy" src="img/genshin.jpeg" alt="imagen blog">
+                    </div>
+                    <h4 class="no-margin">Cómo canjear códigos de premios en Genshin Impact</h4>
+                    <p class="categoria-text">Genshin Impact</p>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </li><!-- FIN ARTICULO -->
+                <li class="widget-sidebar-noticias">
+                    <div class="entrada__imagen">
+                        <img loading="lazy" src="img/pok.png" alt="imagen blog">
+                    </div>
+                    <h4 class="no-margin">Mega-Rayquaza llega a Pokémon GO, pero no de la forma que esperabas - Cómo y cuándo conseguirlo</h4>
+                    <p class="categoria-text">Pokémon</p>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </li><!-- FIN ARTICULO -->
+                <li class="widget-sidebar-noticias">
+                    <div class="entrada__imagen">
+                        <img loading="lazy" src="img/minecraft.jpeg" alt="imagen blog">
+                    </div>
+                    <h4 class="no-margin">Cómo jugar en un servidor multijugador de Minecraft</h4>
+                    <p class="categoria-text">Minecraft</p>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </li><!-- FIN ARTICULO -->
+                <li class="widget-sidebar-noticias">
+                    <div class="entrada__imagen">
+                        <img loading="lazy" src="img/siri.jpeg" alt="imagen blog">
+                    </div>
+                    <h4 class="no-margin">Todos los logros y trofeos de The Witcher 3: Wild Hunt</h4>
+                    <p class="categoria-text">The Witcher 3: Wild Hunt</p>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </li><!-- FIN ARTICULO -->
+                <li class="widget-sidebar-noticias">
+                    <div class="entrada__imagen">
+                        <img loading="lazy" src="img/diablo4.jpeg" alt="imagen blog">
+                    </div>
+                    <h4 class="no-margin">Diablo 4 - Qué son los objetos sacros y ancestrales cómo conseguirlos</h4>
+                    <p class="categoria-text">Diablo IV</p>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </li><!-- FIN ARTICULO -->
+            </ul>
+        </aside>
+    </div>
+
+
+    <section class="contenedor contenedor-secundario">
+        <div class="contenido-inferior">
+            <div class="plataformas-ps">
+                <section class="plataforma icono">
+                    <a href="playstation.html">
+                        <img src="img/logotipo-de-playstation.png" alt="logo ">
+                        <p>PlayStation</p>
+                    </a>
+                </section>
+            </div>
+            <div class="contenedor tres-columnas">
+                <article class="entrada-blog">
+                    <img src="img/Diablo2.jpeg">
+                    <h4>Los jugadores de alto nivel de Diablo 4 se han encontrado con lo que se llama "muro de loot", y es infranqueable.</h4>
+                    <p>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 11 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/LlaveCuervo.jpeg">
+                    <h4>Cómo conseguir la Manivela, la Llave del cuervo y el Lanzagranadas en Resident Evil 7.</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 19 Horas</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/llaveRoja.jpeg">
+                    <h4>Cómo encontrar la Tarjeta llave roja en Resident Evil 7 para acceder al Área de pruebas.</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 16 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+            </div>
+        </div>
+            
+
+        <div class="contenido-inferior">
+            <div class="plataformas-xbox">
+                <section class="plataforma icono">
+                    <a href="xbox.html">
+                        <img src="img/logotipo-de-xbox.png" alt="logo ">
+                        <p>Xbox</p>
+                    </a>
+                </section>
+            </div>
+            <div class="contenedor tres-columnas">
+                <article class="entrada-blog">
+                    <img src="img/llaveRoja.jpeg">
+                    <h4>Cómo encontrar la Tarjeta llave roja en Resident Evil 7 para acceder al Área de pruebas.</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 16 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/cdmwf.jpeg">
+                    <h4>Se acaba de anunciar un "Call of Duty made in Irán" que te desafía a luchar contra EE.UU. y la OTAN.</h4>
+                    <p>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 13 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/1366_2000.jpeg">
+                    <h4>Estos son los dos juegos gratis que no podés perder para miembros del Xbox Game Pass y
+                        Live Gold. </h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 23 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+            </div>
+        </div>
+
+        <div class="contenido-inferior">
+            <div class="plataformas-nd">
+                <section class="plataforma icono">
+                    <a href="nintendo.html">
+                        <img src="img/interruptor-de-nintendo.png" alt="logo ">
+                        <p>Nintendo</p>
+                    </a>
+                </section>
+            </div>
+            <div class="contenedor tres-columnas">
+                <article class="entrada-blog">
+                    <img src="img/nd3.jpeg">
+                    <h4>Activision reconoce que tomó una mala decisión con Nintendo Switch y Call of Duty</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 11 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/nd2.jpeg">
+                    <h4>El jefe de Activision mete la pata y revela la potencia de la próxima consola de Nintendo</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 20 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/zelda.jpeg">
+                    <h4>Cómo resolver el santuario de Uqo'isi en Zelda: Tears of the Kingdom</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 17 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+            </div>
+        </div>
+
+        <div class="contenido-inferior">
+            <div class="plataformas-win">
+                <section class="plataforma icono">
+                    <a href="windows.html">
+                        <img src="img/silueta-del-logotipo-de-windows.png" alt="logo ">
+                        <p>Windows</p>
+                    </a>
+                </section>
+            </div>
+            <div class="contenedor tres-columnas">
+                <article class="entrada-blog">
+                    <img src="img/rebajasSteam.jpeg">
+                    <h4>Las Rebajas de Verano de Steam nos han dejado con estos 15 juegazos por menos de 10 euros.</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 2 horas</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/rd.jpeg">
+                    <h4>Un remaster de Red Dead Redemption sería el sueño de muchos fans, para ilusionarse.</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 8 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+                <article class="entrada-blog">
+                    <img src="img/starfield.jpeg">
+                    <h4>Bethesda y AMD llegan a un acuerdo por Starfield, una mala noticia para las  PC con NVIDIA</h4>
+                    <div class="noticia-info">
+                        <p class="noticia-fecha">Hace 2 días</p>
+                    </div>
+                    <a class="boton boton--secundario" href="noticia.html">Más información</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Pixel<span class="logo__bold">Play</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+            <p class="derechos">© 2023 Todos los derechos reservados por Pixel<strong>Play</strong>.</p>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

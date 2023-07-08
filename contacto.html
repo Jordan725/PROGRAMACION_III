@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de blog de video juegos">
+    <title>Contacto</title>
+    <!-- PREFETCH -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- PRELOAD -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Pixel<span class="logo__bold">Play</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">¡Sube de nivel en el mundo de las noticias!</h2>
+            <p class="no-margin">Enterate de las noticias gamer más importantes</p>
+        </div>
+    </header>
+
+    <!-- soobre nosotros -->
+    <main class="contenedor">
+        <h3 class="centrar-text">Contáctanos</h3>
+        <div class="contacto-texto">
+            <p class="centrar-text">
+                Nos encantaría escuchar tus comentarios, sugerencias o cualquier 
+                consulta que puedas tener. No dudes en ponerte en contacto con 
+                nosotros a través de <span class="text-bold">PixelPlay@gmail.com</span>
+            </p>
+            <p class="centrar-text">
+                En Pixel<span class="text-bold">Play</span> , nos comprometemos a seguir brindándote el mejor contenido 
+                y mantenerte informado sobre las últimas noticias, reseñas y avances del mundo de los videojuegos.
+            </p>
+            <p class="centrar-text">
+                Nos encantaría escuchar tus comentarios, sugerencias o cualquier 
+                consulta que puedas tener. No dudes en ponerte en contacto con 
+                nosotros a través de <span class="text-bold">PixelPlay@gmail.com</span>.
+            </p>
+        </div>
+        
+        <div class="contacto-img"> </div>
+        
+        <form class="formulario" id="form-contacto">
+                <fieldset>
+                    <h4 class="centrar-text">Contáctame llenando todos los campos</h4>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" name="nombre" id="" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label for="">Teléfono</label>
+                            <input class="input-text" type="tel" name="telefono" id="" placeholder="Tu teléfono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-text" type="email" name="correo" id="" placeholder="Tu correo">
+                        </div>
+
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" placeholder="Tu comentario" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="alinear-derecha flex">
+                        <button class="boton-contacto" type="submit">Enviar</button>
+                    </div>
+                    <div id="mensaje-enviado" class="mensaje-enviado oculto">Mensaje enviado</div>
+                </fieldset>
+        </form>
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Pixel<span class="logo__bold">Play</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+            <p class="derechos">© 2023 Todos los derechos reservados por Pixel<strong>Play</strong>.</p>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
